@@ -1,0 +1,89 @@
+
+/* Default Classes bound to work for white background.*/
+.frm_inquiry {
+
+}
+
+.tbl_outer {
+	width: 400px;
+	border: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+}
+
+.addres {
+	width: 450px;
+	border: 0px;
+	padding: 4px;
+	border-spacing: 5px;
+}
+
+.tbl_subject {
+	width: 450px;
+	border: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+}
+
+.tbl_captcha {
+	width: 65%;
+	border: 0px;
+	border-spacing: 2px;
+	padding: 0px;
+}
+
+.td_left {
+	text-align: left;
+	width: 34%;
+}
+
+.td_right {
+	text-align: left;
+	width: 66%;
+}
+
+.td_subject_left {
+	text-align: left;
+	width: 17%;
+}
+
+.td_subject_right {
+	text-align: left;
+	width: 83%;
+}
+
+.td_captcha_left {
+	text-align: left;
+	width: 46%;
+}
+
+.td_captcha_right {
+	text-align: left;
+	width: 54%;
+}
+
+.input_subject {
+	border: 1px solid #c3d4e4;
+	width: 330px;
+}
+
+.input_requirements {
+	border: 1px solid #c3d4e4;
+	width: 410px;
+}
+
+.input_tag {
+	border: 1px solid #c3d4e4;
+	width: 250px;
+}
+
+.input_captcha {
+	border: 1px solid #c3d4e4;
+	width: 175px;
+}
+
+.required {
+	font-size: 1;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF0000;
+}

@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+.addres {
+    width: 100% !important;
+    border: 0px none ;
+    padding: 4px;
+    border-spacing: 5px;
+}
+
+
+.tbl_outer {
+    width: 100% !important;
+    border: 0px none;
+    padding: 0px;
+    border-spacing: 0px;
+}
+
+.tbl_subject {
+    width: 100% !important;
+    border: 0px none;
+    padding: 0px;
+    border-spacing: 0px;
+}
+
+.td_subject_left {
+    text-align: left;
+    width: 17%;
+}
+.tbl_subject {
+    border-spacing: 0px;
+}
+
+.td_subject_right {
+    text-align: left;
+    width: 83%;
+}
+
+.input_subject {
+    border: 1px solid #e8e8e8 !important;
+    width: 100% !important;
+}
+.input_requirements {
+    border: 1px solid #e8e8e8 !important;
+    width: 100% !important;
+}
+
+.td_left {
+    text-align: justify;
+    width: 17% !important;
+}
+
+.input_tag {
+    border: 1px solid #e8e8e8 !important;
+    width:100% !important;
+	padding: 7px 12px;
+	margin:8px 0px;
+}
+.td_right {
+    text-align: left;
+	width: 66% !important;
+}
+
+.input_captcha {
+    border: 1px solid #e8e8e8 !important;
+    width: 100% !important;
+}
+.td_captcha_left {
+    text-align: left;
+}
+.tbl_captcha {
+    border-spacing: 2px;
+}
+
+.td_captcha_right {
+    text-align: left;
+    width: 54%;
+}
+
+td .td_left span .required {
+	float: none !important:
+}
+
+label {
+    display:block !important;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#add_new_city_city_id{
+	float:left;
+	background: #ccc !important;
+border: 1px #000 solid !important;
+}
+
+#vinfo_phone_no{
+	border: 0px none;
+	font-family: "Abel";
+	font-size: 16px;
+	padding-left: 15px;
+	line-height: 60px;
+	width: 95%;
+	float: left;
+	margin-bottom: 15px;
+	height: 55px;
+	background: none repeat scroll 0% 0% #FFF;
+	/*box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1) inset;*/
+}
+@media (max-width:767px) {
+
+.ui-dialog{
+width: 100% !important;
+}
+
+.ui-widget select{
+	width:100% !important;
+	font-size:9px !important;
+}
+
+.dropdown-header ul li {
+    padding: 5px 40px 5px 30px !important;
+   width:190px;
+    
+}
+	
+}

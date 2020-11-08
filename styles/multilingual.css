@@ -1,0 +1,449 @@
+
+/*
+.ja_dd_opt {
+  color: green;
+  font-weight: bold;
+}
+
+.ja_dd_opt_hello {
+  color: blue;
+  font-weight: bold;
+}
+
+.ja_dd_opt_hi {
+  color: orange;
+  font-weight: bold;
+}
+
+.ja_img_opt {
+  color: red;
+  font-weight: bold;
+}
+
+.ja_img_opt_hello {
+  color: blue;
+  font-weight: bold;
+}
+
+.ja_img_opt_hi {
+  color: orange;
+  font-weight: bold;
+}
+
+
+*/
+
+/*OPTION 1 for DropDown with no suffix */
+
+.lang_dd_select select {
+width:170px !important;
+padding:3px;
+background:#fafafa;
+border: #d6d6d6 solid 1px;
+font-size:11px;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.lang_dd_select select option{
+width:98%;
+border-bottom:0px solid #CCC;
+height:
+}
+
+
+
+option {
+    background-color: #ffffff;
+    color: #000000 ;
+}
+
+option:nth-child(even) {
+    background-color: #eeeeee;
+	height:12px;
+}
+
+
+
+
+.en_dd_opt{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px 2px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+
+}
+
+.es_dd_opt{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -14px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+
+.fr_dd_opt{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -29px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+
+.de_dd_opt{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -45px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+
+.it_dd_opt{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -60px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+
+
+.zh_CN_dd_opt{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -76px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+
+}
+
+.ja_dd_opt{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -91.3px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+.ko_dd_opt{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -107px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+.ar_dd_opt{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -122px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+.pt_dd_opt{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -138px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+
+/*OPTION 2 for dropdown 'round' suffix */
+
+
+.en_dd_opt_round{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -156px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+
+}
+
+.es_dd_opt_round{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -175px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+
+.fr_dd_opt_round{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -191px no-repeat;
+float:left;
+margin:0 0px 0 3px;
+padding:0 0 0 30px;
+}
+
+
+.de_dd_opt_round{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -209px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+
+.it_dd_opt_round{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -226px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+
+.zh_CN_dd_opt_round{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -244px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+
+
+.ja_dd_opt_round{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -261px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+.ko_dd_opt_round{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -278px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+.ar_dd_opt_round{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -296px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+.pt_dd_opt_round{
+width:15px;
+height:12px;
+background:url(http://img.tradeindia.com/custom_websites/images/dd_flag.png) 4px -313px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+padding:0 0 5px 25px;
+}
+
+
+
+
+
+/*OPTION 1 for Flag layout without suffix. */
+.en_img_opt{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) 0px 0px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+}
+
+.es_img_opt{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -36px 0px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+}
+
+
+.fr_img_opt{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -72px 0px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+}
+
+
+.de_img_opt{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -108px 0px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+}
+
+
+.it_img_opt{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -143px 0px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+}
+
+
+.zh_CN_img_opt{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -180px 0px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+}
+
+.ja_img_opt{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -215px 0px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+}
+
+.ko_img_opt{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -251px 0px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+}
+
+.ar_img_opt{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -287px 0px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+}
+
+.pt_img_opt{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -323px 0px no-repeat;
+float:left;
+margin:0 4px 0 3px;
+}
+
+
+
+
+
+
+/*OPTION 2 for Custom Flag layout with 'round' suffix */
+
+
+.en_img_opt_round{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -378px 0px no-repeat;
+float:left;
+margin:0 0px 0 3px;
+}
+
+.es_img_opt_round{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -414px 0px no-repeat;
+float:left;
+margin:0 0px 0 3px;
+}
+
+
+.fr_img_opt_round{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -449px 0px no-repeat;
+float:left;
+margin:0 0px 0 3px;
+}
+
+
+.de_img_opt_round{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -485px 0px no-repeat;
+float:left;
+margin:0 0px 0 3px;
+}
+
+
+.it_img_opt_round{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -521px 0px no-repeat;
+float:left;
+margin:0 0px 0 3px;
+}
+
+
+.zh_CN_img_opt_round{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -557px 0px no-repeat;
+float:left;
+margin:0 0px 0 3px;
+}
+
+
+.ja_img_opt_round{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -592px 0px no-repeat;
+float:left;
+margin:0 0px 0 3px;
+}
+
+.ko_img_opt_round{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -628px 0px no-repeat;
+float:left;
+margin:0 0px 0 3px;
+}
+
+.ar_img_opt_round{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -664px 0px no-repeat;
+float:left;
+margin:0 0px 0 3px;
+}
+
+.pt_img_opt_round{
+width:28px;
+height:25px;
+background:url(/images/flag-icons.png) -700px 0px no-repeat;
+float:left;
+margin:0 0px 0 3px;
+}
+
+
