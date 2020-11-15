@@ -1,0 +1,361 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0044)http://www.ktspolymers.com/eva-compound.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Welcome to K. T. S. POLYMERS</title>
+<meta name="description" content="K. T. S. POLYMERS">
+<meta name="keywords" content="K. T. S. POLYMERS">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link type="text/css" media="all" rel="stylesheet" href="styles/style.css">
+<link type="text/css" media="all" rel="stylesheet" href="styles/bootstrap.min.css">
+<link type="text/css" media="all" rel="stylesheet" href="styles/font-awesome.min.css">
+<link type="text/css" media="all" rel="stylesheet" href="styles/menu.css">
+<link type="text/css" media="all" rel="stylesheet" href="styles/enquiry.css">
+
+<script async="" src="javascript/analytics.js"></script><script src="javascript/jquery.min.js"></script>
+<script type="application/javascript" src="javascript/bootstrap.min.js"></script>
+<script type="application/javascript" src="javascript/jquery-3.2.1.min.js"></script>
+<script type="application/javascript" src="javascript/menu.js"></script>
+<script type="application/javascript" src="javascript/lightbox.js"></script>
+
+
+
+
+<link type="text/css" href="styles/jquery_ui_smoothness.css" rel="Stylesheet">
+<script type="text/javascript" language="javascript" src="javascript/jquery.js"></script>
+<script type="text/javascript" src="javascript/jquery_ui_main.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/multilingual.css">
+<script language="javascript" type="text/javascript">
+// <!--
+// --------------- Initializing JS Variables ------------
+var ti_profile_id = 10441899;
+var ti_userid = 7522476;
+var ti_domain = 'http://www.ktspolymers.com';
+var main_cat_id = '198';
+var sms_id = "ID__" + ti_profile_id + "__" + ti_userid + "__CATALOGS__" + main_cat_id + "__SELLER";
+var url = 'http://www.ktspolymers.com/index.html';
+var t_s_service = 1;
+var cmf_service = 1;
+var lang_service = 1;
+var sms_service = 1;
+var ln_type = 'dd';
+var ln_class_suffix = 'round';
+if(ln_class_suffix != '') {
+  ln_class_suffix = '_' + ln_class_suffix;
+}
+
+function get_lang_url(lang) {
+        var current_url = window.location.href;
+        current_url = current_url.replace(/&?tr_lang.*?$/, '');
+        if(current_url.match(/\?/)) {
+                current_url = current_url + '&tr_lang=' + lang;
+        } else {
+                current_url = current_url + '?tr_lang=' + lang;
+        }
+        current_url = current_url.replace(/\?&/, '?');
+        return current_url;
+}
+
+// For keeping just loaded instance of jquery unaffected 
+// from previously loaded jquery instances, if any.
+var jQuery_platform = jQuery.noConflict(true);
+jQuery_platform(document).ready( function($) {
+
+// --------------- Call me free JS Code Begins ------------
+    if(cmf_service && ($("#ti_cmf_holder_html").length > 0)) {
+        var orig_html = $('#ti_cmf_holder_html').html();
+        orig_html = orig_html.replace(/^\s+/g, '').replace(/\s+$/g, '');
+        $('#ti_cmf_holder_html').html('');
+        if(cmf_service == 1) {
+	      var cmf_url ='http://www.tradeindia.com/utils/call_me_free.html?domain=http://www.ktspolymers.com&userid=7522476&profile_id=10441899&calling_phone=919911228884&context=FWS';
+              $("<a id=\"cmf_link_tag\" style=\"text-decoration: none;\" href=\"javascript: return false;\" onclick=\"javascript: window.open('" + cmf_url + "', 'callmefree', 'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=0,left=1,top=1,width=10,height=10'); return false; \" ></a>").appendTo($('#ti_cmf_holder_html'));
+              if(orig_html.length > 0) {
+                    $('#cmf_link_tag').html(orig_html);
+              } else {
+                    $('#cmf_link_tag').html('<img src="https://tiimg.tistatic.com/new_website1/general/call_key/call-me-free.gif" border="0" />');
+              }
+        } else if (cmf_service == 2) {
+              $('#ti_cmf_holder_html').html('<img src="https://tiimg.tistatic.com/new_website1/general/call_key/call-me-offline.gif"  border="0"/>');
+        }
+    } else if($("#ti_cmf_holder_html").length > 0) {
+        $("#ti_cmf_holder_html").remove();
+    }
+// --------------- Call me free JS Code Ends ------------
+
+// --------------- Trust Stamp JS Code Begins ------------
+    if(t_s_service && ($("#ts_holder_html").length > 0)) {
+        $('#ts_holder_html').html('<a href="http://www.tradeindia.com/credit_reports/show_ts.html?profile_id=10441899"><img border="0" src="https://tiimg.tistatic.com/new_website1/general/trust_stamp/trust_stamp_logo.gif"></a>');
+    } else if($("#ts_holder_html").length > 0) {
+        $("#ts_holder_html").remove();
+    }
+// --------------- Trust Stamp JS Code Ends ------------
+
+// --------------- Send SMS JS Code Begins ------------
+    if(sms_service && ($("#sms_holder_html").length > 0)) {
+        var orig_html = $('#sms_holder_html').html();
+        orig_html = orig_html.replace(/^\s+/g, '').replace(/\s+$/g, '');
+        $('#sms_holder_html').html('');
+	$("<a id=\"sms_link_tag\" style=\"text-decoration: none;\" href=\"javascript: return false;\" onclick=\"javascript: window.open('/utils/sms_now.html?id=" + sms_id + "','','width=700 ,height=500')\" ></a>").appendTo($('#sms_holder_html'));
+        if(orig_html.length > 0) {
+                $('#sms_link_tag').html(orig_html);
+        } else {
+                $('#sms_link_tag').html('Send SMS');
+        }
+    } else if($("#sms_holder_html").length > 0) {
+        $("#sms_holder_html").remove();
+    }
+// --------------- Send SMS JS Code Ends ------------
+
+// --------------- MultiLingual JS Code Begins ------------
+    var tr_lang = '';
+    if(lang_service && ($('#ti_multilingual_holder_html').length > 0)) {
+        $('#ti_multilingual_holder_html').html('');
+        var lang_obj = {
+                            "en": "English",
+                            "de": "German",
+                            "es": "Spanish",
+                            "fr": "French",
+                            "it": "Italian",
+                            "ja": "Japanese",
+                            "pt": "Portuguese",
+                            "zh_CN": "Chinese(Simplified)",
+                            "ko": "Korean",
+                            "ar": "Arabic"
+                        };
+        if(ln_type == 'dd') {
+                $('<span class="lang_dd_select" ><select id="lang_dd" name="lang_dd"></select></span>').appendTo($('#ti_multilingual_holder_html'));
+                for(var key in lang_obj) {
+                    var str = '';
+                    if(key == tr_lang) {
+                      str = 'selected';
+                    }
+                    $('<option class="'+key+'_dd_opt'+ln_class_suffix+'" ' + str + ' value="'+key+'">'+lang_obj[key]+'</option>').appendTo($('#lang_dd'));
+                }
+                $('#lang_dd').change(function() {
+                  var go_to = get_lang_url($('#lang_dd').val());
+                  window.location = go_to;
+                });
+        } else if(ln_type == 'custom') {
+                for(var key in lang_obj) {
+                  var str = '';
+                  if(key == tr_lang) {
+                    str = 'current_lang_hilight_custom';
+                  }
+                  var go_to = get_lang_url(key); 
+                  $('<a href="'+go_to+'" class="'+str+' '+key+'_img_opt'+ln_class_suffix+'"></a>').appendTo($('#ti_multilingual_holder_html'));
+                }
+        } else {
+                $('<table id="table_lang" border="0" cellspacing="0" cellpadding="0"></table>').appendTo($('#ti_multilingual_holder_html'));
+                $('<tr id="tr_lang"></tr>').appendTo($('#table_lang'));
+                for(var key in lang_obj) {
+                    var str = '';
+                    if(key == tr_lang) {
+                      str = 'class="current_lang_hilight"';
+                    }
+                    var go_to = get_lang_url(key); 
+                    $('<td style="height: 25px;padding-left:2px;width: 35px;vertical-align:middle;align:middle;"><a href="'+go_to+'" '+str+'><img src="https://tiimg.tistatic.com/new_website1/common/lang/'+key+'.jpg" width="30" height="20" border="0" style="align:middle; border:thin solid #ffff00"/></a></td>').appendTo($('#tr_lang'));
+                }
+        }
+    } else if($("#ti_multilingual_holder_html").length > 0) {
+        $("#ti_multilingual_holder_html").remove();
+    }
+// --------------- MultiLingual JS Code Ends ------------
+});
+// -->
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75185713-39', 'auto');
+  ga('send', 'pageview');
+
+  ga('create', 'UA-33141574-1', 'auto', {'name': 'catalog_rollup'});
+  ga('catalog_rollup.send', 'pageview');
+
+</script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed=""><div id="overlay" style="display: none; position: absolute; top: 0px; left: 0px; z-index: 90; width: 100%;"></div><div id="lightbox" style="display: none; position: absolute; z-index: 100;"><a href="eva-compound.html#" title="Click to close"><img id="lightboxImage"><img src="images/close.png" id="closeButton" style="position: absolute; z-index: 200;"></a><div id="lightboxDetails"><div id="lightboxCaption" style="display: none;"></div><div id="keyboardMsg">press <a href="eva-compound.html#" onclick="hideLightbox(); return false;"><kbd>x</kbd></a> to close</div></div></div>
+
+<div class="top">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<p class="welcome">Welcome To K.T.S. POLYMERS</p>
+</div>
+
+<!--<div class="col-sm-3">
+<p style="text-align:center;">Mail Us:- demo@gmail.com</p>
+</div>-->
+
+<!--<div class="col-sm-3">
+<p style="text-align:center;">Call Us:- +919911228884</p>
+</div>-->
+
+<div class="col-sm-6">
+<ul class="social">
+<li><a href="eva-compound.html#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+
+<li><a href="eva-compound.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+
+<li><a href="eva-compound.html#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+
+<li><a href="eva-compound.html#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+
+<li><a href="eva-compound.html#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<header>
+<div class="container">
+<div class="row">
+<div class="col-sm-7">
+<a href="index.html" class="logo"><img class="img-responsive" src="images/logo.jpg" title="" alt=""></a>
+</div>
+<div class="col-sm-5">
+<div class="search">
+          <div id="main_search_area1">
+			<form method="get" action="products-search.html">
+			<input name="keyword" value="Search product..." onclick="this.value=&#39;&#39;;" class="srch-input" type="text">
+			<input src="images/search.jpg" value="" class="btn" type="image">
+			</form>
+</div>
+          </div>
+</div>
+
+</div>
+</div>
+</header>
+
+<div class="navigation">
+<div class="container">
+<div class="row">
+<nav id="cssmenu">
+<div id="head-mobile"></div>
+<div class="button"></div>
+<ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a class="hilink" href="about_us.html">ABOUT US</a></li>
+            <li class="has-sub">
+              <span class="submenu-button"></span>
+              <a href="product.html">PRODUCTS</a>
+              <ul class="class_name_for_ul" id="id_for_ul">
+                <li><a href="color_masterbatch.html">Color Masterbatch</a></li>
+                <li><a href="white_masterbatch.html">White Masterbatch</a></li>
+                <li><a href="black_masterbatch.html">Black Masterbatch</a></li>
+                <li><a href="additive_masterbatches.html">Additive Masterbatches</a></li>
+                <li><a href="dessicant_masterbatch.html">Dessicant Masterbatch</a></li>
+                <li><a href="special_effect_masterbatch.html">Special Effect Masterbatch</a></li>
+                <li><a href="filler_masterbatch.html">Filler Masterbatch </a></li>
+                <li><a href="ob_masterbatch.html">OB Masterbatch</a></li>
+                <li><a href="tpr_compound.html">TPR Compound</a></li>
+              </ul>
+            </li>
+            <li><a href="application.html">Application</a></li>
+            <li><a href="infrastructure.html">INFRASTRUCTURE</a></li>
+            <li><a href="enquiry.html">ENQUIRY</a></li>
+            <li><a href="contact_us.html">CONTACT US</a></li>
+          </ul>
+</nav>
+</div>
+</div>
+</div>
+
+
+<div class="flash_part">
+  <div class="main_cantainer">
+    <div class="flash"><img src="images/product.jpg" class="img-responsive" title="Product"></div>
+  </div>
+</div>
+
+<div style="color: #FF5C5C; font-size: 24px; font-family: verdana; font-weight: bold; text-align: center;"><br><br><br>Sorry, the file you requested is not present.</div>
+             
+
+
+<!-- pagination code -->
+
+<div class="paginate">For pagination to work per_page param and r param must be passed to website consturctor in global.html</div>
+
+<!-- pagination code ends -->
+
+
+<!-- Main Content End -->
+                    
+
+           
+   
+   
+   <footer>
+   <div class="container">
+<div class="row">
+
+<div class="col-sm-5">
+<h3>About Us</h3>
+<div class="line"><div class="line2"></div></div>
+<p>Based in New Delhi, India, we, K. T. S. POLYMERS are an ISO 9001:2015 certified firm working as a reputed Manufacturer, TPE Compound, Masterbatches and TPR Compound. These are made using quality checked raw material, which are sourced from trusted vendors of the market.</p>
+</div>
+<div class="col-sm-4">
+<h3>Quick link</h3>
+<div class="line"><div class="line2"></div></div>
+<ul class="link">
+            <li><a class="hilink" href="index.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="product.html">Products</a></li>
+            <!--<li><a href="services.html">Services</a></li>-->
+            <li><a href="infrastructure.html">Infrastructure</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+            <li><a href="#">RSS</a></li>
+            <li><a href="#">XML</a></li>
+          </ul>
+</div>
+<div class="col-sm-3">
+<h3>Contact Us</h3>
+<div class="line"><div class="line2"></div></div>
+<p class="address">
+<strong style="font-size:17px;">K. T. S. POLYMERS</strong><br>
+J-285-288, Pocket-O,<br>
+Sector-3, Dsidc Bawana, <br>
+
+Pincode:- 110039 <br>
+Delhi , India
+<br><br>
+<strong style="font-size:17px;">Follow Us</strong>
+</p>
+<ul class="f_link">
+<li><a href="eva-compound.html#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+
+<li><a href="eva-compound.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+
+<li><a href="eva-compound.html#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+
+<li><a href="eva-compound.html#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+
+<li><a href="eva-compound.html#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+
+
+
+</div></div>
+<div class="container">
+<div class="row">
+<div class="copyright">
+<p>Copyright © 2020-21 by <strong>K. T. S. POLYMERS</strong> All Rights Reserved. - Designed &amp; Developed by <a href="eva-compound.html#">Tradeindia.com</a></p>
+</div>
+
+</div>
+</div>
+   
+   </footer>
+   
+   
+
+
+
+
+</body></html>
