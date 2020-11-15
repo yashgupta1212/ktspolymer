@@ -761,8 +761,8 @@ transition: background-color 0.5s ease-out 0s;
 * html #overlay {
 	background-color: #333;
 	back\ground-color: transparent;
-	background-image: url(blank.gif);
-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="image/overlay.png", sizingMethod="scale");
+	background-image: url(../images/blank.gif);
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/overlay.png", sizingMethod="scale");
 }
 #preview {
 	position:absolute;
@@ -777,7 +777,7 @@ ul.services_list{
 	margin:0;
 	}
 ul.services_list > li{
-	list-style-image:url(../image/arrow.png);
+	list-style-image:url(../images/arrow.png);
 	}
 ul.services_list > li > a{
 	font: normal 8.5pt Tahoma, Geneva, sans-serif;
@@ -792,7 +792,7 @@ ul.services_list > li > a:hover{
 	line-height:18px;
 	}
 ul.services_list > li > ul{
-	list-style-image:url(../image/arrow.png);
+	list-style-image:url(../images/arrow.png);
 	}
 ul.services_list > li > ul > li > a{
 	font: normal 8.5pt Tahoma, Geneva, sans-serif;
