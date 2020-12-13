@@ -64,7 +64,7 @@ jQuery_platform(document).ready( function($) {
         orig_html = orig_html.replace(/^\s+/g, '').replace(/\s+$/g, '');
         $('#ti_cmf_holder_html').html('');
         if(cmf_service == 1) {
-	      var cmf_url ='http://www.tradeindia.com/utils/call_me_free.html?domain=http://www.ktspolymers.com&userid=7522476&profile_id=10441899&calling_phone=&context=FWS';
+	      var cmf_url ='utils/call_me_free.html?domain=http://www.ktspolymers.com&userid=7522476&profile_id=10441899&calling_phone=&context=FWS';
               $("<a id=\"cmf_link_tag\" style=\"text-decoration: none;\" href=\"javascript: return false;\" onclick=\"javascript: window.open('" + cmf_url + "', 'callmefree', 'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=0,left=1,top=1,width=10,height=10'); return false; \" ></a>").appendTo($('#ti_cmf_holder_html'));
               if(orig_html.length > 0) {
                     $('#cmf_link_tag').html(orig_html);
@@ -81,7 +81,7 @@ jQuery_platform(document).ready( function($) {
 
 // --------------- Trust Stamp JS Code Begins ------------
     if(t_s_service && ($("#ts_holder_html").length > 0)) {
-        $('#ts_holder_html').html('<a href="http://www.tradeindia.com/credit_reports/show_ts.html?profile_id=10441899"><img border="0" src="https://tiimg.tistatic.com/new_website1/general/trust_stamp/trust_stamp_logo.gif"></a>');
+        $('#ts_holder_html').html('<a href="/credit_reports/show_ts.html?profile_id=10441899"><img border="0" src="https://tiimg.tistatic.com/new_website1/general/trust_stamp/trust_stamp_logo.gif"></a>');
     } else if($("#ts_holder_html").length > 0) {
         $("#ts_holder_html").remove();
     }
@@ -374,7 +374,7 @@ Delhi , India
 <div class="container">
 <div class="row">
 <div class="copyright">
-<p>Copyright © 2020-21 by <strong>K. T. S. POLYMERS</strong> All Rights Reserved. - Designed &amp; Developed by <a href="white_masterbatch.html#">Tradeindia.com</a></p>
+
 </div>
 
 </div>
