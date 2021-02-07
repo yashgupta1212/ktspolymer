@@ -359,17 +359,17 @@
                      }
                      //-->
                   </script>
-                  <form id="gform" class="frm_inquiry" action="https://script.google.com/macros/s/AKfycbxYTIxtiE6OM1mabsgXZDV90C9366R49gTnHYu3CVB98KERctk/exec" method="post" enctype="multipart/form-data" name="vinfo" onsubmit="return validate_check(this)">
+                  <form id="gform" class="frm_inquiry" action="https://script.google.com/macros/s/AKfycbyr_8qvNKqJNnXIMysCqZONzpl0bfHbQMe4x3bZq_iRqoXI2rmQUCETLQ/exec" name="vinfo" onsubmit="return validate_check(this)">
                     <div style="display:none" class="thankyou_message">
                        <!-- You can customize the thankyou message by editing the code below -->
                        <h2><em>Thanks</em> for contacting us! We will get back to you soon!
                        </h2>
                     </div>
-                     <input value="10441899" name="rec_profile_id" type="hidden">
+                    <!--  <input value="10441899" name="rec_profile_id" type="hidden">
                      <input type="hidden" name="rec_userid" value="7522476">
                      <input type="hidden" name="inquiry_status" value="UNMDRTD">
                      <input value="CUSTOM_WEBSITE" name="inquiry_source" type="hidden">
-                     <input type="hidden" name="basket_products" value="">
+                     <input type="hidden" name="basket_products" value=""> -->
                      <table class="tbl_outer">
                         <tbody>
                            <tr>
@@ -405,7 +405,7 @@
                                        <tr>
                                           <td class="td_left"><strong>Your Name :<span class="required">*<span></span></span></strong></td>
                                           <td class="td_right"><span class="q-text1">
-                                             <input name="vinfo_name" type="text" id="vinfo_name" class="input_tag">
+                                             <input name="vinfo_name" type="text" id="name" class="input_tag">
                                              </span>
                                           </td>
                                        </tr>
@@ -520,7 +520,7 @@
                                                          <tbody>
                                                             <tr>
                                                                <td align="left">
-                                                                  <select name="country_code_id_help" id="country_code_id" width="25">
+                                                          <!--         <select name="country_code_id_help" id="country_code_id" width="25">
                                                                      <option value="" selected="selected">Please select a country</option>
                                                                      <option value="AF">Afghanistan</option>
                                                                      <option value="AL">Albania</option>
@@ -768,22 +768,18 @@
                                                                      <option value="YU">Yugoslavia</option>
                                                                      <option value="ZM">Zambia</option>
                                                                      <option value="ZW">Zimbabwe</option>
-                                                                  </select>
+                                                                  </select> -->
                                                                </td>
                                                             </tr>
                                                             <tr>
-                                                               <td align="left">
+                                                               <!-- <td align="left">
                                                                   <select name="state_province_region_help" id="state_province_region" width="25">
                                                                      <option value="" selected="selected">Please select a state/province/region</option>
                                                                   </select>
-                                                               </td>
+                                                               </td> -->
                                                             </tr>
                                                             <tr>
-                                                               <td align="left">
-                                                                  <select name="city_help" id="city_help" width="25">
-                                                                     <option value="" selected="selected">Please select a city</option>
-                                                                  </select>
-                                                               </td>
+                                                               <!-- orokf. -->
                                                             </tr>
                                                          </tbody>
                                                       </table>
@@ -791,7 +787,7 @@
                                                       <a class="message_text" style="text-decoration: none;" href="javascript: return false;" id="btn_continue" name="btn_continue">Continue</a>
                                                    </div>
                                                    <div id="div_add_new_city" name="div_add_new_city" style="display: none;">
-                                                      <input id="call_from_id" type="hidden" name="call_from_id" value="">
+                                                      <!-- <input id="call_from_id" type="hidden" name="call_from_id" value=""> -->
                                                       <p class="message_text">
                                                          While your city gets added to our database after appropriate verifications, you
                                                          can select some city nearby, which exists in our suggestions list and 
@@ -804,15 +800,15 @@
                                                                <td width="35%" align="right">
                                                                   Company Name: 
                                                                </td>
-                                                               <td width="65%" align="left">
+                                                               <!-- <td width="65%" align="left">
                                                                   <input id="new_city_co_name" style="border: solid 1px gray;" name="new_city_co_name" type="text">
-                                                               </td>
+                                                               </td> -->
                                                             </tr>
                                                             <tr>
                                                                <td align="right">
                                                                   Country: 
                                                                </td>
-                                                               <td align="left">
+                                                               <!-- <td align="left">
                                                                   <select name="new_city_country_code" id="new_city_country_code">
                                                                      <option value="" selected="selected">Please select a country</option>
                                                                      <option value="AF">Afghanistan</option>
@@ -1062,31 +1058,31 @@
                                                                      <option value="ZM">Zambia</option>
                                                                      <option value="ZW">Zimbabwe</option>
                                                                   </select>
-                                                               </td>
+                                                               </td> -->
                                                             </tr>
                                                             <tr>
                                                                <td align="right">
                                                                   State/Province/Region: 
                                                                </td>
-                                                               <td align="left">
+                                                               <!-- <td align="left">
                                                                   <input name="new_city_state" type="text" style="border: solid 1px gray;" id="new_city_state">
-                                                               </td>
+                                                               </td> -->
                                                             </tr>
-                                                            <tr>
+                                                            <!-- <tr>
                                                                <td align="right">
                                                                   City: 
                                                                </td>
                                                                <td align="left">
                                                                   <input id="new_city_city" style="border: solid 1px gray;" name="new_city_city" type="text">
                                                                </td>
-                                                            </tr>
+                                                            </tr> -->
                                                             <tr>
                                                                <td align="right">
                                                                   Email: 
                                                                </td>
-                                                               <td align="left">
+                                                               <!-- <td align="left">
                                                                   <input name="new_city_email" type="text" id="new_city_email" style="border: solid 1px gray;">
-                                                               </td>
+                                                               </td> -->
                                                             </tr>
                                                             <tr>
                                                                <td colspan="2" align="center">
@@ -1272,18 +1268,18 @@
                                                          }
                                                        }); // end of autocomplete
                                                        
-                                                       $('#add_new_city_city_id').click(function() {
-                                                               $('#div_locate_city').show();
-                                                               $('#div_add_new_city').hide();
-                                                               $('#div_new_city').dialog({
-                                                                 autoOpen: true,
-                                                                 modal: true,
-                                                                 show: "blind",
-                                                                 width: 500,
-                                                                 title: 'Locate Your City'
-                                                               });
-                                                               $('#call_from_id').val('city_id');
-                                                       });
+                                                       // $('#add_new_city_city_id').click(function() {
+                                                       //         $('#div_locate_city').show();
+                                                       //         $('#div_add_new_city').hide();
+                                                       //         $('#div_new_city').dialog({
+                                                       //           autoOpen: true,
+                                                       //           modal: true,
+                                                       //           show: "blind",
+                                                       //           width: 500,
+                                                       //           title: 'Locate Your City'
+                                                       //         });
+                                                       //         $('#call_from_id').val('city_id');
+                                                       // });
                                                        var input_elements = new Array('new_city_co_name', 'new_city_country_code', 'new_city_state', 'new_city_city', 'new_city_email');
                                                        $('#btn_new_city').click( function() {
                                                          var valid = 1;
@@ -1353,9 +1349,9 @@
                                                        });
                                                    });
                                                 </script>
-                                                <!-- <input name="city_id_input" type="text" title="City, State, Country" id="city_id_input" placeholder="Type your city here ..." class="input_tag ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"> -->
+                                                <input name="location" type="text" title="City, State, Country" id="city_id_input" placeholder="Type your city here ..." class="input_tag ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
                                                 <br>
-                                                <a href="javascript: return false;" id="add_new_city_city_id" style="text-decoration: none; color: green; font-size: 9px; background-color: white; border: dotted 1px gray;">&nbsp;City Not Found ?&nbsp;</a>
+                                               <!--  <a href="javascript: return false;" id="add_new_city_city_id" style="text-decoration: none; color: green; font-size: 9px; background-color: white; border: dotted 1px gray;">&nbsp;City Not Found ?&nbsp;</a> -->
                                                 <!-- <input name="city_id" type="hidden" id="city_id" value="">
                                                 <input value="" id="vinfo_country_code" name="vinfo_country_code" type="hidden">
                                                 <input value="" type="hidden" name="vinfo_state" id="vinfo_state">
@@ -1366,7 +1362,7 @@
                                        <tr>
                                           <td class="td_left"><strong>Phone / Mobile :<span class="required">*<span></span></span></strong></td>
                                           <td class="td_right"><span class="q-text1">
-                                             <input class="input_tag" id="vinfo_phone_no" name="vinfo_phone_no">
+                                             <input class="input_tag" id="vinfo_phone_no" name="Phone Number">
                                              </span>
                                           </td>
                                        </tr>
